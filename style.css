@@ -1,22 +1,26 @@
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 0%;
-  padding: 0%;
 }
 header {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 1136px;
-  margin-left: 263px;
 }
 nav {
   position: fixed;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 1136px;
-  height: 60px;
-  top: 0%;
+  height: 65px;
+  background-color: white;
+  z-index: 1;
 }
 
 .nav-l {
@@ -28,17 +32,42 @@ nav {
   flex: 2;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
+}
+.nav-m p {
+  padding: 18px;
 }
 .nav-r {
   flex: 1;
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 .nav-btn-r {
+  cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  width: 94px;
+  height: 46px;
+  border-radius: 23px;
+}
+.nav-btn-r:hover {
+  background-color: rgba(128, 128, 128, 0.096);
+}
+.nav-btn-l {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 42px;
+  color: white;
+  background-color: black;
+  border-radius: 21px;
+}
+.nav-btn-l:hover {
+  background-color: rgba(0, 0, 0, 0.865);
 }
 .heading {
   margin-top: 60px;
@@ -47,10 +76,22 @@ nav {
   flex-direction: column;
   align-items: center;
 }
+.heading h1 {
+  font-size: 54px;
+}
 .menu {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  width: 700px;
+}
+.item {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.item img {
+  padding-right: 6px;
 }
 .banner {
   position: relative;
@@ -65,11 +106,56 @@ nav {
   height: 460px;
   overflow: hidden;
 }
+.ban-cont {
+  width: 408px;
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+.ban-cont span {
+  background-color: white;
+  margin-left: 3px;
+  border-radius: 3px;
+  padding: 5px;
+  color: black;
+}
+.ban-cont p {
+  font-size: 12px;
+  line-height: 0px;
+  padding-bottom: 10px;
+}
+.ban-cont h1 {
+  font-size: 56px;
+  padding: 0%;
+  margin: 0%;
+  line-height: 50px;
+}
+.ban-cont h2 {
+  font-size: 24px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
 .banner img {
   position: absolute;
   width: 1200px;
   top: -20px;
   left: -60px;
+}
+.banner-btn {
+  background-color: #52327c;
+  width: 200px;
+  height: 48px;
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.banner-btn img {
+  position: relative;
+  left: -6px;
+  top: -2px;
+  width: 12px;
 }
 .search {
   display: flex;
@@ -80,4 +166,115 @@ nav {
   background-color: white;
   border-radius: 28px;
   border: 1px solid grey;
+  margin-bottom: 60px;
+}
+.search-btn {
+  width: 90px;
+  height: 45px;
+  border-radius: 22px;
+  background-color: #36e0a1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search input {
+  font-size: 15px;
+  height: 50px;
+  width: 600px;
+  border: none;
+}
+textarea:focus,
+input:focus {
+  outline: none;
+}
+section {
+  width: 1136px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.place-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.place-card-items {
+  margin: 7px;
+  width: 270px;
+  height: 270px;
+  border-radius: 8px;
+  color: white;
+  display: flex;
+  align-items: end;
+}
+.place-card-items:hover {
+  opacity: 0.9;
+}
+
+.place-item1 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/79/01/88/caption.jpg?w=600&h=-1&s=1);
+  background-size: contain;
+  object-fit: cover;
+  object-position: center;
+}
+.place-item2 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/79/01/c6/caption.jpg?w=600&h=-1&s=1);
+  background-size: contain;
+  object-fit: cover;
+  object-position: center;
+}
+.place-item3 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/79/01/fd/caption.jpg?w=600&h=-1&s=1);
+  background-size: contain;
+  object-fit: cover;
+  object-position: center;
+}
+.place-item4 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/79/02/1d/caption.jpg?w=600&h=-1&s=1);
+  background-size: contain;
+  object-fit: cover;
+  object-position: center;
+}
+.place-card-items h1 {
+  padding-left: 10px;
+}
+.recent {
+  width: 1136px;
+}
+.loc {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 180px;
+  height: 73px;
+  border: 2px solid rgba(128, 128, 128, 0.509);
+  border-radius: 10px;
+}
+.loc-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 110px;
+}
+.loc h1 {
+  font-size: 16px;
+  margin-left: -15px;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+}
+.loc p {
+  font-size: 12px;
+  margin-top: 0%;
+  padding-top: 0%;
+}
+.travel {
+  background-color: #fff6e0;
+  height: 600px;
+  margin-bottom: 60px;
+}
+footer {
+  height: 372px;
+  background-color: #faf1ed;
 }
