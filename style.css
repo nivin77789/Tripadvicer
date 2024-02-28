@@ -228,16 +228,20 @@ section {
   opacity: 0.9;
 }
 .place-it1 {
-  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f7/12/caption.jpg?w=600&h=600&s=1);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.632), rgba(255, 0, 149, 0)),
+    url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f7/12/caption.jpg?w=600&h=600&s=1);
 }
 .place-it2 {
-  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/c8/caption.jpg?w=600&h=600&s=1&cx=2606&cy=1838&chk=v1_a61182fd4040ed4ecc4e);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.914), rgba(255, 0, 149, 0)),
+    url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/4b/5d/c8/caption.jpg?w=600&h=600&s=1&cx=2606&cy=1838&chk=v1_a61182fd4040ed4ecc4e);
 }
 .place-it3 {
-  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f1/0b/caption.jpg?w=600&h=600&s=1);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.596), rgba(255, 0, 149, 0)),
+    url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/33/f1/0b/caption.jpg?w=600&h=600&s=1);
 }
 .place-it4 {
-  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/90/94/caption.jpg?w=600&h=600&s=1);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.598), rgba(255, 0, 149, 0)),
+    url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c7/90/94/caption.jpg?w=600&h=600&s=1);
 }
 .place-card-items h1 {
   padding-left: 10px;
@@ -465,4 +469,25 @@ footer {
 }
 .d3 {
   line-height: 10px;
+}
+.sub {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  height: 186px;
+  width: 1136px;
+  border-radius: 10px;
+  background-color: #eafaf4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.s1 img {
+  height: 160px;
+  width: 160px;
+  border-radius: 7px;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  transform: rotate(-5deg);
 }
