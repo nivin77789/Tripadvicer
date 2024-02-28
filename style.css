@@ -308,12 +308,161 @@ section {
   justify-content: space-between;
   width: 1136px;
 }
+.explore {
+  width: 1710px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #faf1ed;
+  height: 445px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.exp-cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1136px;
+}
+.exp {
+  width: 365px;
+  height: 232px;
+  background-size: cover;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+.exp-item h1 {
+  font-size: 18px;
+  width: 365px;
+}
+.exp:hover {
+  opacity: 0.9;
+}
+.ex1 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/2c/ba/10/2e672789-cb71-4baf.jpg?w=800&h=-1&s=1);
+}
+.ex2 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/fc/fd/91/f173f106-9fa1-40bf.jpg?w=800&h=-1&s=1);
+}
+.ex3 {
+  background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/d2/cf/57/e4ccbb16-a0ad-48a8.jpg?w=800&h=500&s=1);
+}
 .travel {
   background-color: #fff6e0;
   height: 600px;
   margin-bottom: 60px;
+  margin-top: 60px;
+  width: 1710px;
 }
 footer {
+  margin-top: 60px;
+  position: relative;
   height: 372px;
+  width: 1710px;
   background-color: #faf1ed;
+  bottom: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.ds {
+  display: flex;
+  width: 1136px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.d1 {
+  flex: 1;
+}
+.d2 {
+  flex: 1;
+}
+.d3 {
+  flex: 1;
+}
+.d4 {
+  flex: 2;
+}
+.foot-b {
+  width: 1136px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.f-u {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.f-l {
+  flex: 2;
+}
+.f-r {
+  flex: 1;
+}
+.drop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inr {
+  width: 140px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid grey;
+}
+.ind {
+  width: 140px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid grey;
+}
+.ico {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 180px;
+}
+.l-d p {
+  font-size: 12px;
+  color: #333333;
+}
+.tx-h1 h1 {
+  font-size: 16px;
+  text-decoration: underline;
+  margin: 0%;
+  padding: 0%;
+}
+.tx-h1 {
+  width: 696px;
+  display: flex;
+}
+.tx-h1 p {
+  font-size: 12px;
+  margin: 0%;
+  padding: 0%;
+}
+.da p {
+  font-size: 14px;
+
+  margin: 0%;
+  padding: 0%;
+}
+.d1 {
+  margin: 0%;
+  padding: 0%;
+
+  line-height: 10px;
+}
+.d2 {
+  line-height: 10px;
+}
+.d3 {
+  line-height: 10px;
 }
