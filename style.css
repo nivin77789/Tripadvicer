@@ -422,20 +422,7 @@ footer {
   align-items: center;
   justify-content: space-around;
 }
-.inr {
-  width: 140px;
-  height: 30px;
-  border-radius: 20px;
-  background-color: white;
-  border: 1px solid grey;
-}
-.ind {
-  width: 140px;
-  height: 30px;
-  border-radius: 20px;
-  background-color: white;
-  border: 1px solid grey;
-}
+
 .ico {
   display: flex;
   align-items: center;
@@ -453,13 +440,14 @@ footer {
   padding: 0%;
 }
 .tx-h1 {
-  width: 696px;
-  display: flex;
+  width: 606px;
+  display: inline-block;
 }
-.tx-h1 p {
-  font-size: 12px;
-  margin: 0%;
-  padding: 0%;
+.tx-h1 span {
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-left: 13px;
 }
 .da p {
   font-size: 14px;
@@ -514,4 +502,78 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.s2 {
+  text-align: left;
+}
+.s3 {
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: rgb(59, 70, 59);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ico {
+  margin-top: 20px;
+  margin-left: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.ico img {
+  margin-left: 20px;
+}
+.ico img:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+.review {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.drop {
+  font-weight: 500;
+}
+.inr {
+  width: 170px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.523);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.ind {
+  width: 170px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.538);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.inr:hover {
+  background-color: rgb(241, 241, 241);
+}
+.ind:hover {
+  background-color: rgb(241, 241, 241);
+}
+.f-u-im {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -70px;
+}
+.tx p {
+  font-size: 12px;
+  margin-left: 10px;
+  font-weight: lighter;
 }
