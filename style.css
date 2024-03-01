@@ -12,6 +12,15 @@ header {
   align-items: center;
   width: 1136px;
 }
+.naver {
+  position: fixed;
+  width: 1710px;
+  height: 65px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 nav {
   position: fixed;
   display: flex;
@@ -490,4 +499,19 @@ footer {
   -o-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
   transform: rotate(-5deg);
+}
+.nav-m {
+  cursor: pointer;
+}
+.nav-m {
+  font-weight: 500;
+  font-size: 15px;
+}
+.nav-m p:hover {
+  background-color: rgba(128, 128, 128, 0.053);
+  border-radius: 20px;
+  height: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
